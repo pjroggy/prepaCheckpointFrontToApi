@@ -1,0 +1,7 @@
+<div class="card">
+    <img [src]="beerChild.image_url" [alt]="beerChild.name">
+    <h3>{{beerChild.name}}</h3>
+    <button>
+        <a [routerLink]="['/beers',beerChild.id]">Voir plus</a>
+    </button>
+</div>

@@ -1,0 +1,9 @@
+<div class="cards-container">
+    <app-beer-card *ngFor="let beer of beerList" 
+    [beerChild]="beer"
+    ></app-beer-card>
+</div>
+
+<div *ngFor="let beer of beerList">
+    {{beer.name}}
+</div>
